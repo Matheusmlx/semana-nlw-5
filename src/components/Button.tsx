@@ -10,7 +10,7 @@ interface ButtonText extends TouchableOpacityProps{
 export function Button({text,...rest}:ButtonText) {
     return(
         <TouchableOpacity style={styles.button} activeOpacity={0.8} {...rest}>
-            <Text style={styles.buttonText}>{text}</Text>
+            <Text style={styles.buttonText}>{ds}</Text>
         </TouchableOpacity>
     )
 }
